@@ -14,28 +14,6 @@ What is the causal effect of walkability on rental prices, and what happens to t
 
 Most data not in repository due to file being too large.
 
-## Repository Structure
-Rent_And_Walkability_New/
-│
-├── data/
-│ ├── raw/ # Original, immutable data from sources
-│ │ ├── RW_Data/census data #raw census data
-│ └── processed/ # Cleaned, merged, and final analysis datasets
-│ └── RW_Data/city_all/violent/etc._crime_data.csv #Processed crime data
-│
-├── notebooks/
-│ ├── 01_crime_data_notebooks #notebooks for processing crime data for each city/county (with geocoding for certain cities)
-│ ├── 02_Determining Percentile Crime 2019.ipynb
-│ ├── 03_Getting Exam Score per BlockGroup.ipynb
-│ └── 04_Rent_Walk_Analysis.ipynb #full analysis
-│
-├── final_paper/
-│ ├── Rent_Walk_Presentation.pptx # The final submitted powerpoint
-│ └── Rent and Walkability Paper.pdf # The final submitted paper
-│
-├── requirements.txt # Python dependencies
-└── README.md # This file
-
 ## Key Steps and Code
 1.  **Data Acquisition & Cleaning:** (All notebooks)
     *   Downloaded EPA, ACS, and crime data.
